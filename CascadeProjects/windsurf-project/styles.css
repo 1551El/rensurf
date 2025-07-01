@@ -1,4 +1,4 @@
-/* Global Styles */
+/* Globala stilar */
 :root {
     --primary-color: #2c3e50;
     --secondary-color: #3498db;
@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif; /* Svensk standardwebbfont */
     margin: 0;
     padding: 0;
     background: #f4f6fa;
