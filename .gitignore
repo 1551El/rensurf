@@ -1,0 +1,9 @@
+# Node modules och loggar
+node_modules/
+*.log
+.DS_Store
+.env
+# Systemfiler
+Thumbs.db
+# VSCode
+.vscode/
