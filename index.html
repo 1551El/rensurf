@@ -1,1 +1,81 @@
-
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RensurfMalmö | Högtryckstvätt & Fönsterputs i Skåne</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#hem">Hem</a></li>
+                <li><a href="#om-oss">Om oss</a></li>
+                <li><a href="#tjanster">Tjänster & Priser</a></li>
+                <li><a href="#galleri">Galleri</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hem" class="hero">
+            <img src="logga.png" alt="RensurfMalmö logotyp" class="hero-logo">
+            <h1>Välkommen till RensurfMalmö</h1>
+            <p>Professionell högtryckstvätt & fönsterputsning i hela Skåne</p>
+        </section>
+        <section id="om-oss" class="about">
+            <h2>Om oss</h2>
+            <p>RensurfMalmö är ett familjeföretag baserat i Malmö som erbjuder högtryckstvätt och fönsterputsning till både privatpersoner och företag i hela Skåne. Vi har lång erfarenhet, arbetar miljövänligt och sätter alltid kundens behov i fokus.</p>
+        </section>
+        <section id="tjanster" class="services">
+            <h2>Tjänster & Priser</h2>
+            <ul class="service-list">
+                <li><strong>Högtryckstvätt Uppfart:</strong> från 900 kr</li>
+                <li><strong>Högtryckstvätt Fasad:</strong> från 1 500 kr</li>
+                <li><strong>Högtryckstvätt Altan:</strong> från 800 kr</li>
+                <li><strong>Fönsterputsning:</strong> från 350 kr</li>
+            </ul>
+            <p class="small">*Priserna är exempel, kontakta oss för offert!</p>
+        </section>
+        <section id="galleri" class="gallery">
+            <h2>Galleri</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Före uppfartstvätt">
+                    <span>Före</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Efter uppfartstvätt">
+                    <span>Efter</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Före fönsterputs">
+                    <span>Före</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=400&q=80" alt="Efter fönsterputs">
+                    <span>Efter</span>
+                </div>
+            </div>
+        </section>
+        <section id="kontakt" class="contact">
+            <h2>Kontakt</h2>
+            <p><strong>Telefon:</strong> 070-123 45 67</p>
+            <p><strong>E-post:</strong> info@rensurfmalmo.com</p>
+            <form class="contact-form">
+                <label for="namn">Namn</label>
+                <input type="text" id="namn" name="namn" required>
+                <label for="epost">E-post</label>
+                <input type="email" id="epost" name="epost" required>
+                <label for="meddelande">Meddelande</label>
+                <textarea id="meddelande" name="meddelande" rows="4" required></textarea>
+                <button type="submit">Skicka</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 RensurfMalmö. Alla rättigheter förbehållna.</p>
+    </footer>
+</body>
+</html>
