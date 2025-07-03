@@ -584,6 +584,38 @@ figure.effect-honey:hover h2 i {
 }
 
 @media (max-width: 767px) {
+  .tm-navbar {
+    position: static !important;
+    width: 100vw !important;
+    left: 0 !important;
+    background: #fff !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    z-index: 1000;
+  }
+  .navbar-collapse {
+    background: #fff !important;
+    width: 100vw !important;
+    left: 0 !important;
+    top: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 16px 0 8px 0 !important;
+    min-width: 100vw !important;
+    margin: 0 !important;
+  }
+  .navbar-nav {
+    width: 100vw !important;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0 16px !important;
+  }
+  .nav-item {
+    margin: 0 0 8px 0 !important;
+  }
+  .tm-navbar.scroll {
+    background: #fff !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  }
   #infinite {
     background-size: contain !important;
     background-position: top center !important;
