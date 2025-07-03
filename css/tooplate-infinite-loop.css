@@ -584,12 +584,44 @@ figure.effect-honey:hover h2 i {
 }
 
 @media (max-width: 767px) {
+  #infinite {
+    background-size: contain !important;
+    background-position: top center !important;
+    min-height: 320px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .tm-parallax-2 {
-    background-size: cover !important;
-    background-position: center !important;
-    min-height: 400px;
+    background-size: contain !important;
+    background-position: top center !important;
+    min-height: 320px;
+  }
+  .tm-parallax-2::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.36);
+    z-index: 0;
+    pointer-events: none;
+  }
+  .tm-gallery-container {
+    max-width: 100vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .tm-gallery-item img, .tm-gallery-item {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100vw !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tm-section-pad-top {
+    padding-top: 40px;
   }
 }
+
 
 .contact-item {
   margin-left: 0;
