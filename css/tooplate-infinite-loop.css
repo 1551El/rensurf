@@ -571,7 +571,7 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: white;
   background-color: #001828;
-  background-image: url(../img/infinite-loop-03.jpg);
+  background-image: url(../img/RensurfTTT.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
@@ -581,13 +581,22 @@ figure.effect-honey:hover h2 i {
 }
 
 .contact-item {
-  margin-left: 20px;
+  margin-left: 0;
   margin-bottom: 50px;
+  background: transparent;
+  border-radius: 8px;
+  padding: 10px 20px 10px 0;
+  display: flex;
+  align-items: center;
+  width: fit-content;
 }
 
 .item-link {
   display: flex;
   align-items: center;
+  color: #111 !important;
+  text-decoration: none;
+  margin-left: 0;
 }
 
 .item-link i,
