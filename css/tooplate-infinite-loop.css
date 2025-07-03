@@ -568,16 +568,27 @@ figure.effect-honey:hover h2 i {
 
 /* Contact */
 
-#contact {
-  color: white;
-  background-color: #001828;
+.tm-parallax-2 {
   background-image: url(../img/RensurfTTT.jpg);
-  background-position: center;
+  background-size: cover !important;
+  background-position: center !important;
   background-repeat: no-repeat;
   min-height: 980px;
   position: relative;
   padding-bottom: 50px;
   padding-top: 100px;
+}
+
+#contact {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .tm-parallax-2 {
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 400px;
+  }
 }
 
 .contact-item {
