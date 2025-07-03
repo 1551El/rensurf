@@ -98,6 +98,22 @@ blockquote {
   padding: 0;
 }
 
+@media (max-width: 767px) {
+  .tm-navbar, .tm-navbar .container, #navbarSupportedContent, .navbar-nav {
+    display: block !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    text-align: left;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .nav-item {
+    margin: 0 0 8px 0 !important;
+  }
+}
+
+
 #navbarSupportedContent {
   width: 100%;
   display: flex !important;
@@ -183,7 +199,18 @@ blockquote {
   height: 100vh;
   min-height: 375px;
   position: relative;
+  background-size: cover;
+  background-position: center;
 }
+
+@media (max-width: 767px) {
+  #infinite {
+    background-size: contain !important;
+    background-position: top center !important;
+    min-height: 320px;
+  }
+}
+
 
 @media (min-height: 600px) and (min-width: 1920px) {
   #infinite {
