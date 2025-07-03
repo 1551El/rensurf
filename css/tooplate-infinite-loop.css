@@ -127,9 +127,10 @@ blockquote {
   margin: 0 24px;
 }
 
-.tm-navbar.scroll {
+.tm-navbar.scroll, .tm-navbar, .navbar, .navbar-nav, .navbar-collapse {
   background: transparent !important;
   border: none !important;
+  box-shadow: none !important;
 }
 
 .navbar-brand {
