@@ -585,9 +585,9 @@ figure.effect-honey:hover h2 i {
 
 @media (max-width: 767px) {
   .tm-parallax-2 {
-    background-size: contain !important;
-    background-position: top center !important;
-    min-height: 320px;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 400px;
   }
 }
 
