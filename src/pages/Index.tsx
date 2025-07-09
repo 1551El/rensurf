@@ -30,9 +30,9 @@ const Index = () => {
   ];
 
   const galleryImages = [
-    { before: "https://rensurfmalmo.com/img/f%C3%B6reGolv.jpg", after: "https://rensurfmalmo.com/img/EfterGolv.jpg", title: "Golv" },
-    { before: "https://rensurfmalmo.com/img/F%C3%B6reG%C3%A5ng.jpg", after: "https://rensurfmalmo.com/img/EfterG%C3%A5ng.jpg", title: "Gång" },
-    { before: "https://rensurfmalmo.com/img/F%C3%B6reTak.jpg", after: "https://rensurfmalmo.com/img/EfterTak.jpg", title: "Tak" }
+    { before: "https://rensurfmalmo.com/img/föreGolv.jpg", after: "https://rensurfmalmo.com/img/EfterGolv.jpg", title: "Golv" },
+    { before: "https://rensurfmalmo.com/img/föreGång.jpg", after: "https://rensurfmalmo.com/img/EfterGång.jpg", title: "Gång" },
+    { before: "https://rensurfmalmo.com/img/FöreTak.jpg", after: "https://rensurfmalmo.com/img/EfterTak.jpg", title: "Tak" }
   ];
 
   return (
