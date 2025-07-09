@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Water droplet with gradient -->
+  <path d="M64 8C64 8 30 50 30 82C30 114 64 120 64 120C64 120 98 114 98 82C98 50 64 8 64 8Z" fill="url(#paint0_linear)"/>
+  
+  <!-- Highlight/shine effect -->
+  <path d="M56 76C56 83.732 62.268 90 70 90C77.732 90 84 83.732 84 76C84 68.268 77.732 62 70 62C62.268 62 56 68.268 56 76Z" fill="url(#paint1_radial)"/>
+  
+  <!-- Define the gradients -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="64" y1="8" x2="64" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4299E1"/>
+      <stop offset="1" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(70 76) rotate(90) scale(14)">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

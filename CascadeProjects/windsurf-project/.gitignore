@@ -1,9 +1,0 @@
-# Node modules and logs
-node_modules/
-*.log
-.DS_Store
-.env
-# System files
-Thumbs.db
-# VSCode
-.vscode/
