@@ -81,7 +81,8 @@ const Index = () => {
 
       {/* Hero Section */}
       <section id="hem" className="relative min-h-screen flex items-center justify-center">
-        <div className="absolute inset-0 bg-[url('/lovable-uploads/dceb6002-3f2d-456e-948e-59c5f9555e46.png')] bg-cover bg-center"></div>
+        <div className="absolute inset-0 hidden md:block bg-[url('/public/img/Rensurfbg.png')] bg-cover bg-[center_85%]"></div>
+        <div className="absolute inset-0 md:hidden bg-[url('/public/img/Rensurfbg.png')] bg-cover bg-[center_bottom]"></div>
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-white" 
@@ -271,27 +272,13 @@ const Index = () => {
               </CardContent>
             </Card>
           </div>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg px-8 py-3 bg-primary hover:bg-primary/90 shadow-lg">
-              <Phone className="mr-2 h-5 w-5" />
-              Ring nu
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-3 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              <Mail className="mr-2 h-5 w-5" />
-              Skicka mejl
-            </Button>
-          </div>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="py-12 bg-foreground text-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex items-center justify-center space-x-2 mb-4">
-            <div className="w-8 h-8 bg-gradient-to-br from-secondary to-primary rounded-full flex items-center justify-center">
-              <Droplets className="h-5 w-5 text-foreground" />
-            </div>
+        <div className="flex items-center justify-center mb-4">
             <span className="text-2xl font-bold">RenSurf Malmö</span>
           </div>
           <p className="text-background/70 mb-4">
@@ -309,7 +296,7 @@ const Index = () => {
             </a>
           </div>
           <div className="mt-8 pt-8 border-t border-background/20 text-background/50">
-            © 2024 RenSurf Malmö. Alla rättigheter förbehållna.
+            © 2025 RenSurf Malmö. Alla rättigheter förbehållna.
           </div>
         </div>
       </footer>
